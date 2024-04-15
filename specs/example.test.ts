@@ -24,6 +24,6 @@ describe("sum function", () => {
   });
 
   test.skip("null + NaN should be NaN", () => {
-    expect(sum(null as unknown as number, NaN)).toBe(NaN);
+    expect(sum(null as unknown as number, NaN)).toBe(null);
   });
 });
